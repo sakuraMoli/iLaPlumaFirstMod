@@ -31,7 +31,7 @@ public class Berry extends Item {
 
     public static void initialize() {
         //berry的初始化部分
-        //设置分组为REDSTONE,向分组中添加berry物品
+        //设置分组为食物与饮品,向分组中添加berry物品
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
                 .register((itemGroup) -> itemGroup.add(Berry.berry));
         //设置berry的堆肥参数
