@@ -1,9 +1,17 @@
 package com.example.test;
 
+import com.example.test.item.Berry;
+import com.example.test.utils.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.List;
 
 public class La_pluma_mod implements ModInitializer {
 	public static final String MOD_ID = "la_pluma_mod_test_01";
@@ -15,10 +23,6 @@ public class La_pluma_mod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+        Berry.initialize();
 	}
 }
