@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "la_pluma_mod_test_01",
+	"version": "1.0.0",
+	"name": "la_pluma_mod",
+	"description": "First Mod of La_Pluma!",
+	"authors": [
+		"La_Pluma"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/la_pluma_mod_test_01/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.test.La_pluma_mod"
+		],
+		"fabric-datagen": [
+			"com.example.test.La_pluma_modDataGenerator"
+		]
+	},
+	"mixins": [
+		"la_pluma_mod_test_01.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
