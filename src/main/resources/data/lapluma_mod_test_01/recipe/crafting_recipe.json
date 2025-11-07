@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "la_pluma_mod_test_01:berry"
+    }
+  },
+  "result": {
+    "id": "minecraft:oak_log",
+    "count": 1
+  }
+}
