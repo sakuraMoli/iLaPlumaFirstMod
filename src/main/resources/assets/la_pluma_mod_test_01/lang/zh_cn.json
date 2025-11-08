@@ -1,4 +1,7 @@
 {
   "item.la_pluma_mod_test_01.berry": "莓果",
-  "tooltip.la_pluma_mod_test_01.berry": "这是一颗还不能吃的莓果"
+  "item.la_pluma_mod_test_01.super_big_cup_pickaxe": "超~大~杯~",
+  "tooltip.la_pluma_mod_test_01.berry": "这是一颗吃掉可能会充满power的莓果",
+  "tooltip.la_pluma_mod_test_01.super_big_cup_pickaxe": "辣鸡!",
+  "tooltip.la_pluma_mod_test_01.super_suit": "超薄001"
 }

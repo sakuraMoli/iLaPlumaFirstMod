@@ -18,6 +18,7 @@ import net.minecraft.util.Formatting;
 import com.example.test.utils.ModItems;
 
 import java.util.List;
+import static com.example.test.utils.FabricDocsReference.STRENGTH_BERRY;
 
 public class Berry extends Item {
     public Berry(Settings settings){
@@ -25,7 +26,7 @@ public class Berry extends Item {
     }
     //berry创建
     public static final Item berry =ModItems.register(
-            new Berry(new Item.Settings()),
+            new Berry(new Item.Settings().food(STRENGTH_BERRY)),
             "berry"
     );
 

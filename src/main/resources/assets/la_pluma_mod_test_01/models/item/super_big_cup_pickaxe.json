@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "la_pluma_mod_test_01:item/super_big_cup_pickaxe"
+  }
+}

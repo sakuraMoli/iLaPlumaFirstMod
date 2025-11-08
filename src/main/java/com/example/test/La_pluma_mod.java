@@ -1,7 +1,9 @@
 package com.example.test;
 
 import com.example.test.item.Berry;
+import com.example.test.item.Super_Big_Cup_Pickaxe;
 import com.example.test.utils.ModItems;
+import com.example.test.utils.MyArmorMaterials;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.item.Item;
@@ -24,5 +26,6 @@ public class La_pluma_mod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         Berry.initialize();
+        Super_Big_Cup_Pickaxe.initialize();
 	}
 }
