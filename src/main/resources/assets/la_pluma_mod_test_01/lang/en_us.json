@@ -1,7 +1,10 @@
 {
   "item.la_pluma_mod_test_01.berry": "berry",
   "item.la_pluma_mod_test_01.super_big_cup_pickaxe": "super big cup!",
+  "item.la_pluma_mod_test_01.super_suit_helmet": "ultra protection helmet",
+  "item.la_pluma_mod_test_01.super_suit_leggings": "ultra protection leggings",
   "tooltip.la_pluma_mod_test_01.berry": "This is a berry that might give you strength",
   "tooltip.la_pluma_mod_test_01.super_big_cup_pickaxe": "power!",
-  "tooltip.la_pluma_mod_test_01.super_suit": "zero g is the only way to move!"
+  "tooltip.la_pluma_mod_test_01.super_suit": "zero g is the only way to move!",
+  "item.la_pluma_mod_test_01": "Wonderful Random Thoughts"
 }

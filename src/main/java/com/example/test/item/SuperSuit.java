@@ -2,6 +2,7 @@ package com.example.test.item;
 
 import com.example.test.utils.ModItems;
 import com.example.test.utils.MyArmorMaterials;
+import com.example.test.utils.MyItemGroups;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -24,16 +25,16 @@ public class SuperSuit extends ArmorItem{
 
 
     public static void initialize() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+        ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup)
                         ->itemGroup.add(SuperSuit.SUPER_SUIT_HELMET));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+        ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup)
                         ->itemGroup.add(SuperSuit.SUPER_SUIT_BOOTS));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+        ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup)
                         ->itemGroup.add(SuperSuit.SUPER_SUIT_LEGGINGS));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT)
+        ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup)
                         ->itemGroup.add(SuperSuit.SUPER_SUIT_CHESTPLATE));
     }

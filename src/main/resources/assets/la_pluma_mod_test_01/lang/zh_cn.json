@@ -1,7 +1,10 @@
 {
   "item.la_pluma_mod_test_01.berry": "莓果",
   "item.la_pluma_mod_test_01.super_big_cup_pickaxe": "超~大~杯~",
+  "item.la_pluma_mod_test_01.super_suit_helmet": "开一局头盔",
+  "item.la_pluma_mod_test_01.super_suit_leggings": "开一局护腿",
   "tooltip.la_pluma_mod_test_01.berry": "这是一颗吃掉可能会充满power的莓果",
   "tooltip.la_pluma_mod_test_01.super_big_cup_pickaxe": "辣鸡!",
-  "tooltip.la_pluma_mod_test_01.super_suit": "超薄001"
+  "tooltip.la_pluma_mod_test_01.super_suit": "超薄001",
+  "item.la_pluma_mod_test_01": "奇妙随想"
 }

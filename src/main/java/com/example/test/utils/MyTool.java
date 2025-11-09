@@ -37,6 +37,6 @@ public class MyTool implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Berry.berry, Items.EGG);
+        return Ingredient.ofItems(Berry.BERRY, Items.EGG);
     }
 }

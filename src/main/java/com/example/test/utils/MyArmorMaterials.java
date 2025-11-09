@@ -4,16 +4,12 @@ import com.example.test.item.Berry;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ArmorMaterials;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 
 import java.util.List;
@@ -57,7 +53,7 @@ public class MyArmorMaterials extends ArmorMaterials {
             // The sound played when the armor is equipped.
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
             // The ingredient(s) used to repair the armor.
-            () -> Ingredient.ofItems(Berry.berry),
+            () -> Ingredient.ofItems(Berry.BERRY),
             0.5F,
             1F,
             false);

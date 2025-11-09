@@ -1,6 +1,7 @@
 package com.example.test.item;
 
 import com.example.test.utils.ModItems;
+import com.example.test.utils.MyItemGroups;
 import com.example.test.utils.MyTool;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
@@ -27,7 +28,7 @@ public class Super_Big_Cup_Pickaxe extends PickaxeItem {
     );
 
     public static void initialize() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS)
+        ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup)
                         ->itemGroup.add(Super_Big_Cup_Pickaxe.SUPER_BIG_CUP_PICKAXE));
     }
