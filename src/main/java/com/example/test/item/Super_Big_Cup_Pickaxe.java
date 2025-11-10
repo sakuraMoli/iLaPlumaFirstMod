@@ -17,10 +17,10 @@ public class Super_Big_Cup_Pickaxe extends PickaxeItem {
     }
 
     public static final Item SUPER_BIG_CUP_PICKAXE = ModItems.register(
-            new Super_Big_Cup_Pickaxe(new MyTool(),new Item.Settings()
+            new Super_Big_Cup_Pickaxe(MyTool.INSTANCE,new Item.Settings()
                     .attributeModifiers(
                             PickaxeItem.createAttributeModifiers(
-                            new MyTool(),1,-2.8F
+                            new MyTool(),3,-2.8F
                             )
                     )
             ),

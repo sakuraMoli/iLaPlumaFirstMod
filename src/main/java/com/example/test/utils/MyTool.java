@@ -32,7 +32,7 @@ public class MyTool implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 30;
+        return 22;
     }
 
     @Override

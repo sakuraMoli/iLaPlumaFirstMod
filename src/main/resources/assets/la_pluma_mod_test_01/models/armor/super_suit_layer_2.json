@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "la_pluma_mod_test_01:models/armor/super_suit_layer_2"
+  }
+}
