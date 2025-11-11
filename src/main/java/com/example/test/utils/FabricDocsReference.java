@@ -15,4 +15,5 @@ public class FabricDocsReference {
             .saturationModifier(0.5f)
             .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH,60*20,1),0.1f)
             .build();
+
 }

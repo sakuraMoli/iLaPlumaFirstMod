@@ -1,1 +1,8 @@
-// 1.21.1	2025-11-10T18:05:48.8208471	la_pluma_mod/Tags for minecraft:item
+// 1.21.1	2025-11-11T16:53:03.1632789	la_pluma_mod/Tags for minecraft:item
+a9df8aeb63ced05611cb67dbe96448fe55cea55c data\minecraft\tags\item\enchantable\head_armor.json
+e472cacd46cdda08f32b7177f210fd43df2f0e37 data\minecraft\tags\item\fox_food.json
+f8e3157dec68eec8b33914f787a923858b478ed5 data\minecraft\tags\item\enchantable\mining.json
+989a5c0856c583beb1f32a3195d09fda44e560f5 data\minecraft\tags\item\enchantable\armor.json
+ffc4c07a5ca033b190b34882957f83dd6de42ef5 data\minecraft\tags\item\enchantable\foot_armor.json
+8a052b1011df1db40ff14bba6f146b3b97889dcf data\minecraft\tags\item\enchantable\leg_armor.json
+f8ad4bbded53f05f5e2a3c8986c631b8075dacfe data\minecraft\tags\item\enchantable\chest_armor.json
