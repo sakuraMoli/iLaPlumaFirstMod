@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "la_pluma_mod_test_01:block/pure_white_block"
+  }
+}

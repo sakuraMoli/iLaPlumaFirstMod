@@ -3,7 +3,6 @@ package com.example.test.utils;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.Item;
 
 public class FabricDocsReference {
     public static final String MOD_ID = "la_pluma_mod_test_01";

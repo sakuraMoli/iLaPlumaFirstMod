@@ -5,8 +5,9 @@
   "item.la_pluma_mod_test_01.super_suit_leggings": "ultra protection leggings",
   "item.la_pluma_mod_test_01.super_suit_chestplate": "ultra protection chestplate",
   "item.la_pluma_mod_test_01.super_suit_boots": "ultra protection boots",
+  "block.la_pluma_mod_test_01.pure_white_block": "pure white block",
   "tooltip.la_pluma_mod_test_01.berry": "This is a berry that might give you strength",
   "tooltip.la_pluma_mod_test_01.super_big_cup_pickaxe": "power!",
   "tooltip.la_pluma_mod_test_01.super_suit": "zero g is the only way to move!",
-  "item.la_pluma_mod_test_01": "Wonderful Random Thoughts"
+  "itemGroup.la_pluma_mod_test_01": "Wonderful Random Thoughts"
 }

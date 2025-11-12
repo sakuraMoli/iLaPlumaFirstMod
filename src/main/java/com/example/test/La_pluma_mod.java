@@ -1,22 +1,14 @@
 package com.example.test;
 
 import com.example.test.item.Berry;
+import com.example.test.item.PureWhiteBlock;
+import com.example.test.item.SuperBigCupPickaxe;
 import com.example.test.item.SuperSuit;
-import com.example.test.item.Super_Big_Cup_Pickaxe;
-import com.example.test.utils.ModItems;
 import com.example.test.utils.MyArmorMaterials;
 import com.example.test.utils.MyItemGroups;
-import com.sun.jna.platform.win32.WinCrypt;
 import net.fabricmc.api.ModInitializer;
-
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.tooltip.TooltipType;
-import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.List;
 
 public class La_pluma_mod implements ModInitializer {
 	public static final String MOD_ID = "la_pluma_mod_test_01";
@@ -30,8 +22,9 @@ public class La_pluma_mod implements ModInitializer {
 	public void onInitialize() {
         MyItemGroups.initialize();
         Berry.initialize();
-        Super_Big_Cup_Pickaxe.initialize();
+        SuperBigCupPickaxe.initialize();
         MyArmorMaterials.initialize();
         SuperSuit.initialize();
+        PureWhiteBlock.initialize();
 	}
 }
