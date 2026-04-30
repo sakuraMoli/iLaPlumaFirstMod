@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
-import static com.example.test.utils.FabricDocsReference.MOD_ID;
+import static com.example.test.La_pluma_mod.MOD_ID;
 
 public class MyArmorMaterials extends ArmorMaterials {
 

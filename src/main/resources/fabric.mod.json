@@ -18,6 +18,9 @@
 		"main": [
 			"com.example.test.La_pluma_mod"
 		],
+		"client": [
+			"com.example.test.La_pluma_modClient"
+		],
 		"fabric-datagen": [
 			"com.example.test.La_pluma_modDataGenerator"
 		]

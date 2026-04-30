@@ -11,17 +11,18 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static com.example.test.utils.FabricDocsReference.MOD_ID;
+import static com.example.test.La_pluma_mod.MOD_ID;
 
 public class MyItemGroups extends ItemGroups {
-    public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MOD_ID, "item_group"));
+    public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY =
+            RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MOD_ID, "item_group"));
+
     public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Berry.BERRY))
             .displayName(Text.translatable("itemGroup.la_pluma_mod_test_01"))
             .build();
-    public static void initialize(){
-        // Register the group.
+
+    public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
     }
-
 }

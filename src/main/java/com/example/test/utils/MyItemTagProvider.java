@@ -29,7 +29,6 @@ public class MyItemTagProvider extends FabricTagProvider<Item> {
         super(output, RegistryKeys.ITEM, registriesFuture);
     }
 
-    public static final TagKey<Item> MY_MOD_ITEMS = TagKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "my_mod_items"));
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE)

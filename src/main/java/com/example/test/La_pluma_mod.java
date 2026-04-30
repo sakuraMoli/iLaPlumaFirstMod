@@ -4,6 +4,7 @@ import com.example.test.item.Berry;
 import com.example.test.item.PureWhiteBlock;
 import com.example.test.item.SuperBigCupPickaxe;
 import com.example.test.item.SuperSuit;
+import com.example.test.utils.ModEntities;
 import com.example.test.utils.MyArmorMaterials;
 import com.example.test.utils.MyItemGroups;
 import net.fabricmc.api.ModInitializer;
@@ -21,6 +22,7 @@ public class La_pluma_mod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         MyItemGroups.initialize();
+        ModEntities.initialize();
         Berry.initialize();
         SuperBigCupPickaxe.initialize();
         MyArmorMaterials.initialize();

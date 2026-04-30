@@ -20,10 +20,10 @@ public class SuperBigCupPickaxe extends PickaxeItem {
     }
 
     public static final Item SUPER_BIG_CUP_PICKAXE = ModItems.register(
-            new SuperBigCupPickaxe(MyTool.INSTANCE,new Item.Settings()
+            new SuperBigCupPickaxe(MyTool.INSTANCE, new Item.Settings()
                     .attributeModifiers(
                             PickaxeItem.createAttributeModifiers(
-                            new MyTool(),3,-2.8F
+                                    MyTool.INSTANCE, 3, -2.8F
                             )
                     )
             ),
@@ -32,15 +32,16 @@ public class SuperBigCupPickaxe extends PickaxeItem {
 
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(MyItemGroups.CUSTOM_ITEM_GROUP_KEY)
-                .register((itemGroup)
-                        ->itemGroup.add(SuperBigCupPickaxe.SUPER_BIG_CUP_PICKAXE));
+                .register(itemGroup -> itemGroup.add(SUPER_BIG_CUP_PICKAXE));
     }
+
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("tooltip.la_pluma_mod_test_01.super_big_cup_pickaxe").formatted(Formatting.GREEN));
     }
+
     @Override
-    public boolean isEnchantable(ItemStack stack){
+    public boolean isEnchantable(ItemStack stack) {
         return true;
     }
 }
